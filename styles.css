@@ -1,0 +1,193 @@
+*
+{
+font-family: 'Karma', serif;
+/*background: #121212;*/
+color: white;
+margin: 0;
+padding: 0;
+}
+
+/*@font-face {
+  font-family: "GildaDisplay";
+  src: url("components/Gilda_Display/GildaDisplay-regular.ttf") format("truetype");
+}*/
+
+body {
+background: #121212;
+}
+
+h1, h2, h3, h4 {
+	font-weight: lighter;
+}
+
+.NavBar {
+	padding-top: 1%;
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	gap: 30px;
+}
+
+.dot {
+  height: 70vh;
+  width: 70vh;
+  background-color: #457B9D;
+  border-radius: 50%;
+  position: absolute;
+/*  top: 50%;
+  left: 50%;*/
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.content-wrapper {
+	width: 80%;
+	margin: 4% 10% 5% 10%;
+}
+
+.content-wrapper img {
+	width: 100%;
+}
+
+.banner {
+position: relative;
+width: 90%;
+margin: 0 auto;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.heading {
+	font-weight: 600;
+	font-size: 96px;
+	line-height: 96px;
+	position: absolute;
+	text-align: center;
+	z-index: 1;
+ transform: translate(-2vw, -65vh);
+}
+
+/* Taken from https://www.thewebblinders.in/programming/article/the-right-way-of-doing-css-full-screen-landing-page-with-centered-content-6030 */
+.landingPage {
+	margin: 0 auto 0 auto;
+	width: 100%;
+	height: 100vh;
+  min-height: 100vh;	
+	background: url("components/bg-circle.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* For centering content */
+/*	display: flex;
+*//*	align-items: center;
+	justify-content: center;
+*/}
+
+.frontImg{
+ height: 85vh;
+ width: 20vw;
+ object-fit: cover;
+ transform: translate(39vw, 4vh);
+ object-position: 30% 0;
+ z-index: -1;
+}
+
+.vertical {
+  border-left: 3px solid white;
+  height: 150px;
+  position:absolute;
+  bottom: 0%;
+  left: 84%;
+}
+
+.vertical2 {
+  border-left: 3px solid white;
+  height: 300px;
+  position:absolute;
+  bottom: 0%;
+  left: 86%;
+}
+
+.vertical3 {
+  border-left: 3px solid white;
+  height: 225px;
+  position:absolute;
+  bottom: 0%;
+  left: 88%;
+}
+
+.vertical4 {
+  border-left: 3px solid white;
+  height: 150px;
+  position:absolute;
+  top: 0%;
+  right: 90%;
+}
+
+.vertical5 {
+  border-left: 3px solid white;
+  height: 300px;
+  position:absolute;
+  top: 0%;
+  right: 92%;
+}
+
+.vertical6 {
+  border-left: 3px solid white;
+  height: 225px;
+  position:absolute;
+  top: 0%;
+  right: 94%;
+}
+
+.containerNews {
+	position: absolute;
+	padding-top: 3%;
+	top: 15%;
+	left: 65%;
+/*	background-color: red;
+*/}
+
+.news {
+	line-height: 10vh;
+/*	background-color: red;
+*/}
+
+.news {
+	color: red;
+	font-size: 24px;
+}
+
+.news:hover {
+	background-color: #457B9D;
+	border-radius: 7px;
+}
+
+.circleBg {
+    width:700px;
+    height:700px;
+    border-radius:500px;
+    font-size:20px;
+    line-height:100px;
+    text-align:center;
+    background: #457B9D;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.NavBarChild {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.NavBarChild:hover {
+	background-color: #457B9D;
+	border-radius: 7px;
+}
+
+.footer {
+   position: absolute;
+   bottom: 0px;
+}
